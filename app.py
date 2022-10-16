@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return redirect("https://es-account.go365.com/enes/?1;x=", code=302)
+    return redirect("https://es-account.go365.com/enes/?1;x=<script>", code=302)
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
