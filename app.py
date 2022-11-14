@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return redirect("http://bfueud2og73bxl6ispeorujz8qeh2dq2.oastify.com", code=302)
+    return redirect("http://h8qknjvu9dwhqrzolv7uk0c51w7nvlja.oastify.com", code=303)
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
