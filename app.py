@@ -3,7 +3,7 @@ from flask import Flask,redirect
 
 app = Flask(__name__)
 
-@app.route('/ping')
+@app.route('/')
 def hello():
     return redirect("http://68.183.116.64:8080", code=302)
 
