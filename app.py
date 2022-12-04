@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/ping')
 def hello():
-    return redirect("http://qf9hknkqcickh51cyvp2f0e1qswjke83.oastify.com", code=307)
+    return redirect("http://metadata.google.internal", code=302)
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
