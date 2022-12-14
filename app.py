@@ -3,7 +3,7 @@ from flask import Flask,redirect
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def hello():
     return redirect("https://vsrdwxqyeat2rx42v3v9b8tqghm8a0yp.oastify.com", code=302)
 
